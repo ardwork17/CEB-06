@@ -1,0 +1,76 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Medium';
+}
+
+.our-team {
+	margin: auto;
+}
+
+.container {
+	width: 100%;
+ 	margin: 0 auto;	
+}
+
+.heading {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.top-heading p {
+	font-family: 'Roboto Medium';
+	font-weight: normal;
+	font-size: 40px;
+}
+
+.top-image {
+	padding-bottom: 30px;
+}
+
+.our-teams {
+	height: 330px;
+	background-image: url(image/ourteam.png);
+	background-size: cover;
+	position: relative;
+	padding: 10px 50px 10px 50px;
+}
+
+
+.team-image img {
+	height: 110px;
+	width: 100px;
+	margin-right: 20px;
+	border-radius: 55px;	
+	float: left;
+}
+
+.team-image img:hover {
+	opacity: 1;
+	transform: scale(1) rotate(360deg);
+}
+
+.team-image h2 {
+	float:left;
+	margin-top: 30px;
+	font-weight: normal;
+	font-family: 'Roboto Medium';
+}
+
+.team {
+	float: left;
+	margin: 40px 80px 0 10px;
+	padding-left: 70px;
+}
+
+
+
+
+
+
